@@ -85,6 +85,11 @@ pip install -r requirements.txt
 2. Exécutez le fichier
 3. Suivez les instructions
 
+### 🚨 **IMPORTANT - ACCÈS ADMINISTRATEUR**
+**Pour que l'exécutable fonctionne correctement:**
+- **Clic droit sur WiFiPenTest.exe → Exécuter en tant qu'administrateur**
+- **Ou lancez une invite de commandes en tant qu'administrateur**
+
 ## 🚀 UTILISATION
 
 ### Lancement
@@ -130,11 +135,11 @@ tester.save_brute_force_report(report)
 WiFi_PenTest/
 ├── wifi_security_tester_v2.py    # Script principal
 ├── requirements.txt               # Dépendances Python
-├── hack_icon.ico                # Icône de l'application
+├── wifi_icon.ico                # Icône de l'application
 ├── LICENSE.txt                  # Licence d'utilisation
 ├── README.md                   # Documentation
 ├── dist/                       # Exécutables compilés
-│   └── WiFiPenTest.exe
+│   └── WiFiPenTest.exe         # Exécutable principal
 ├── reports/                    # Rapports JSON
 ├── wordlists/                  # Wordlists personnalisées
 └── logs/                       # Logs d'application
@@ -145,7 +150,7 @@ WiFi_PenTest/
 Pour compiler en .exe:
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --console --icon=hack_icon.ico --name=WiFiPenTest wifi_security_tester_v2.py
+pyinstaller --onefile --console --icon=wifi_icon.ico --name=WiFiPenTest wifi_security_tester_v2.py
 ```
 
 ## 📊 RAPPORTS
@@ -231,3 +236,22 @@ Pour toute question ou problème:
 ---
 
 **⚠️ RAPPEL**: Cet outil doit être utilisé uniquement à des fins éthiques et légales sur vos propres réseaux.
+
+---
+
+## 🚨 **NOTE SUR L'EXÉCUTABLE**
+
+**Problème d'accès refusé résolu:**
+- L'exécutable `WiFiPenTest.exe` nécessite des droits administrateur
+- **Solution**: Clic droit → "Exécuter en tant qu'administrateur"
+- **Alternative**: Lancer depuis une invite de commandes administrateur
+
+**Exécutable disponible:**
+- `dist/WiFiPenTest.exe` (20.5 MB)
+- Icône WiFi personnalisée intégrée
+- Interface console fonctionnelle
+
+**Si l'accès est toujours refusé:**
+1. Téléchargez le fichier `WiFi_PenTest_Final.exe` (à la racine du projet)
+2. Copiez-le manuellement dans le dossier `WiFi_PenTest/dist/`
+3. Exécutez en tant qu'administrateur
