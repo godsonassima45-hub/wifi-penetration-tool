@@ -1,0 +1,91 @@
+{
+  "report": {
+    "target_ssid": "TP-Link_A9B4",
+    "test_date": "2026-02-07T00:29:53.495245",
+    "passwords_tested": 4184,
+    "weak_passwords_found": 1523,
+    "security_score": 0,
+    "recommendations": [
+      "Utilisez un mot de passe d'au moins 12 caractères",
+      "Combinez lettres majuscules, minuscules, chiffres et symboles",
+      "Évitez les mots du dictionnaire et les informations personnelles",
+      "Changez régulièrement votre mot de passe WiFi",
+      "Activez le cryptage WPA3 si disponible",
+      "Désactivez le WPS (WiFi Protected Setup)",
+      "⚠️ 1523 mots de passe faibles détectés dans les tests"
+    ]
+  },
+  "weak_passwords": [
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "1234567833",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.012442"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "guest71",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.023514"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "12345678065",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.086939"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "abc123",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.119865"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "1234567866",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.141176"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "root033",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.182749"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "guest02",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.205164"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "wifi075",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.257468"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "toor015",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.278105"
+    },
+    {
+      "ssid": "TP-Link_A9B4",
+      "password": "root021",
+      "strength": "Faible",
+      "score": 2,
+      "timestamp": "2026-02-07T00:29:05.299086"
+    }
+  ],
+  "generated_by": "WiFi Security Tester v1.0"
+}

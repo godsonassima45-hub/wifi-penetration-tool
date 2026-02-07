@@ -1,0 +1,15 @@
+{
+  "target_ssid": "TP-Link_A9B4",
+  "test_date": "2026-02-07T00:45:05.893728",
+  "brute_force_mode": true,
+  "passwords_tested": 47,
+  "password_found": true,
+  "found_password": "004504",
+  "elapsed_time": 524.9502458572388,
+  "attempts_per_second": 0.08953229448106924,
+  "security_resistance": {
+    "time_to_crack": 524.9502458572388,
+    "attempts_needed": 47,
+    "resistance_score": 99.53
+  }
+}

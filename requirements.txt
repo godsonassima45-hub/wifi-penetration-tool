@@ -1,0 +1,22 @@
+# Dépendances pour l'outil de test de sécurité WiFi
+# Version minimales recommandées
+
+# Bibliothèques standard (incluses dans Python)
+# subprocess, threading, itertools, string, random, sys, os, datetime, json
+
+# Pour la compilation en .exe
+pyinstaller>=5.0.0
+
+# Pour les connexions WiFi réelles
+pywifi>=1.1.0
+comtypes>=1.1.0
+
+# Pour l'analyse réseau avancée
+scapy>=2.4.0
+
+# Pour le logging et le monitoring
+colorama>=0.4.0
+tqdm>=4.60.0
+
+# Pour les performances
+psutil>=5.8.0
